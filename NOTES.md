@@ -1,1 +1,2 @@
 Classification in machine learning is a supervised task where a model learns from labelled examples to assign new inputs to one of several predefined classes.
+I kept THRESHOLD = 0.4 because, for an IDS, a missed attack is worse than a false alarm: an undetected intrusion can cause real damage, while a false alarm only costs an analyst a few minutes to check (at 0.4 the model misses 2 attacks instead of 7, for 4 false alarms instead of 1).
